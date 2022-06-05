@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUDI A4</title>
+    <link rel="stylesheet" href="./css/타이틀.css">
+
+    <style>
+      
+      
+ 
+ 
+ 
+         </style>
+ </head>
+<body>
+  <div>
+    <ul >
+        <a style="padding: 0px 43px 0px 0px;" href="../home.html"><img src="./img/로고.png" width="80px" height="auto"></a>
+    <li class="dropdown">
+        <a href="./AUDI.html" class="dropbtn">AUDI</a>
+        <div class="dropdown-content">
+          <a href="./A4.html">A4</a>
+          <a href="./A6.html">A6</a>
+          <a href="./A8.html">A8</a>
+        </div>
+      <li class="dropdown">
+        <a href="./BMW.html" class="dropbtn">BMW</a>
+        <div class="dropdown-content">
+          <a href="./3series.html">3 Series</a>
+          <a href="./5series.html">5 Series</a>
+          <a href="./7series.html">7 Series</a>
+        </div>
+      <li class="dropdown">
+        <a href="./BENZ.html" class="dropbtn">MERCEDES-BENZ</a>
+        <div class="dropdown-content">
+          <a href="./C-class.html">C-Class</a>
+          <a href="./E-class.html">E-Class</a>
+          <a href="./S-class.html">S-Class</a>
+        </div>
+        <li class="dropdown">
+            <a href="./high performance.html" class="dropbtn">high performance</a>
+            <div class="dropdown-content">
+              
+              <a href="./m.html">M</a>
+              <a href="./amg.html">AMG</a>
+            </div>
+           
+    </ul>
+    <hr  class="hr">
+    </div>
+
+<!--메뉴끝 -->
+    <div class="main">
+             
+        <div align="center">
+            <iframe width="60%" height="700px" src="https://www.youtube.com/embed/h2utHgTDkEc?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+<h1 style="text-align:center ; font-size: 42px;">"The new Audi A4"</h1>
+<p style="text-align:center; font-size: 19px;">스포티함의 절정</p><br><br><br>
+<div style="width:1100px; height:700px; display: block; margin: 0 auto;" class="container">
+<div class="mySlides">
+<div class="numbertext">1 / 6</div>
+<img src="./img/audi a4/라이트 2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides">
+<div class="numbertext">2 / 6</div>
+<img src="./img/audi a4/라이트.jpg" style="width:100%">
+</div>
+
+<div class="mySlides">
+<div class="numbertext">3 / 6</div>
+<img src="./img/audi a4/옆 22.jpg" style="width:100%">
+</div>
+
+<div class="mySlides">
+<div class="numbertext">4 / 6</div>
+<img src="./img/audi a4/내부.jpg" style="width:100%; height: 732.5px;">
+</div>
+
+<div class="mySlides">
+<div class="numbertext">5 / 6</div>
+<img src="./img/audi a4/완전뒤.jpg" style="width:100%; height: 732.5px;">
+</div>
+
+<div class="mySlides">
+<div class="numbertext">6 / 6</div>
+<img src="./img/audi a4/뒷 22.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+<div class="caption-container">
+<p id="caption"></p>
+</div>
+
+<div class="row">
+<div class="column">
+<img class="demo cursor" src="./img/audi a4/라이트 2.jpg" style="width:100%" onclick="currentSlide(1)" alt="실용적이며 아름다운 라이트">
+</div>
+<div class="column">
+<img class="demo cursor" src="./img/audi a4/라이트.jpg" style="width:100%" onclick="currentSlide(2)" alt="아우디 A4의 또 다른 시각적 특징은 진보적인 조명 디자인">
+</div>
+<div class="column">
+<img class="demo cursor" src="./img/audi a4/옆 22.jpg" style="width:100%" onclick="currentSlide(3)" alt="모든 각도에서 드러나는 스포티함">
+</div>
+<div class="column">
+<img class="demo cursor" src="./img/audi a4/내부.jpg" style="width:100%" onclick="currentSlide(4)" alt="수평으로 길게 이어진 송풍구는 차체의 너른 폭을 강조, 그 위의 크롬 스트립은 고급스러운 느낌">
+</div>
+<div class="column">
+<img class="demo cursor" src="./img/audi a4/완전뒤.jpg" style="width:100%; height: 122px;" onclick="currentSlide(5)" alt="LED 라이트를 가로질러 연결하는 크롬 스크립이 후면 디자인">
+</div>    
+<div class="column">
+<img class="demo cursor" src="./img/audi a4/뒷 22.jpg" style="width:100%" onclick="currentSlide(6)" alt="계층형 디퓨저에는 사다리꼴의 테일파이프가 통합되어 스포티함을 강조">
+</div>
+</div>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("demo");
+let captionText = document.getElementById("caption");
+
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+   
+    <h1 style="text-align:center;">기본정보</h1><br>
+    <table align="center">
+      <tr>
+        <th>가격</th>
+        <td>5,122~6,202만원</td>  
+      </tr>
+      <tr>
+        <th>연료</th>
+        <td>가솔린, 디젤</td>   
+      </tr>
+      <tr>
+        <th>연비</th>
+        <td>복합 10.5~16.9km/ℓ 도심 9.4~15.3, 고속 12.1~19.4</td>  
+        
+      </tr>
+      <tr>
+        <th>출력</th>
+        <td>163~265hp 엔진</td>  
+      </tr>
+      <tr>
+        <th>토크</th>
+        <td>32.6~40.8kg.m 엔진</td>
+      </tr>
+      <tr>
+        <th>배기</th>
+        <td>1,968~1,984cc</td>
+      </tr>
+      <tr>
+        <th>엔진</th>
+        <td>I4 싱글터보</td>
+      </tr>
+      <tr>
+        <th>구동</th>
+        <td>FF, AWD</td>
+      </tr>
+      <tr>
+        <th>변속</th>
+        <td>자동7단</td>
+      </tr>
+      <tr>
+        <th>전장</th>
+        <td>4,770mm</td>
+      </tr>
+      <tr>
+        <th>전고</th>
+        <td>1,430mm</td>
+      </tr>
+      <tr>
+        <th>전폭</th>
+        <td>1,845mm</td>
+      </tr>
+      <tr>
+        <th>축거</th>
+        <td>2,822mm</td>
+      </tr>
+    </table>
+    <p style="text-align:right;margin-right: 15%;">[출처 : (네이버)2022 아우디 A4 정보]</p><br><br><br><br><br><br>
+    
+    <a href="https://www.audi.co.kr/kr/web/ko/models/a4/a4-saloon_2021.html"><img src="./img/audi a4/구매처.jpg" style="display: block; margin: 0 auto; width:55%; height:auto;"></a><br><br>
+    <div style="width:240px; margin:auto;">
+    <button class="button" style="vertical-align:middle;"><a href="https://www.audi.co.kr/kr/web/ko/models/a4/a4-saloon_2021.html"><span>차량 만들기</span></a></button>
+    </div><br><br>
+    <div style="float: right; margin-right: 18%;">
+        <a href="./A6.html"  class="y" float="right" >Audi A6</a>
+        </div> <br><br><br><br><br><br><br>
+       
+        <footer>
+          <p>문의 : 010-5038-6695</p>
+          <p>제작자 : 윤태영</p>
+          <p>본 사이트의 모든 콘텐츠는 무단 배포 등을 금합니다.</p> <br><br>
+          </footer>
+    </div>
+</body>
+</html>
